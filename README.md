@@ -16,11 +16,14 @@ The deck, *I Jailbroke a Scam Bot, and So Can You*, is adapted from these talks:
 
 ## What the slides cover
 
+I merged my slide decks. They target offensive, defensive and software engineering audiences. For those who are "purple teamers" at heart.
+
 - **Jailbreaking basics:** model safety, guardrails, attention, and analysing a target.
 - **Attack techniques:** roleplay, code completion, multi-turn attacks and Crescendo, Unicode tags, and chain-of-thought forgery.
 - **Chatbots and agents:** prompt leaks, context engineering, RAG, tool use, and the difference between direct model invocation and an agent harness.
 - **Building an evaluation suite:** benign baselines, attack families, test runners, judges, human checks, logging, and costs.
 - **Experiments and defensive lessons:** AWS agent scenarios, tool-call chains, permissions, and checking actions rather than trusting the model's claims.
+- **Code review -> Exploit pipline:** A design rather than something prescriptive.
 
 ## Write-ups coming next
 

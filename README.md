@@ -6,7 +6,7 @@ By **[Yianna Paris](https://ludahex.nl)**, Offensive Security Engineer at Xebia 
 
 ## Download the slides
 
-**[Download the PowerPoint slides (.pptx, v0.6a)](./WICCON-Conference-Script-Kitty-Style_v0_6a.pptx?raw=true)**
+**[Download the slides (PDF)](../WICCON-Conference-Script-Kitty-Style_v0_6a.pdf?raw=true)**
 
 The deck, *I Jailbroke a Scam Bot, and So Can You*, is adapted from these talks:
 

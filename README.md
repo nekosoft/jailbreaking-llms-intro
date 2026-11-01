@@ -64,9 +64,7 @@ The links below relate to the topics in the slides; the experiments and results 
 
 ### Hands-on learning
 
-- **[Gray Swan Arena](https://www.grayswan.ai/solutions/for-model-builders/arena):** AI red-teaming challenges.
-- **[Berkeley's AgentX-AgentBeats Competition](https://rdi.berkeley.edu/agentx-agentbeats):** agent evaluation and benchmark development. [AgentBeats dashboard](https://agentbeats.dev/).
-- **[HackAPrompt](https://www.hackaprompt.com/):** prompt-injection and jailbreaking challenges.
+- To be updated
 - **[OWASP FinBot CTF](https://genai.owasp.org/resource/finbot-agentic-ai-capture-the-flag-ctf-application/):** hands-on challenges for agentic AI security.
 
 ## Licence and attribution

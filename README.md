@@ -10,9 +10,9 @@ By **[Yianna Paris](https://ludahex.nl)**, Offensive Security Engineer at Xebia 
 
 The deck, *I Jailbroke a Scam Bot, and So Can You*, is adapted from these talks:
 
-- 26 October 2026: GoDataFest
-- 27 October 2026: Techorama NL
-- 30 October 2026: WICCON
+- 26 October 2026: Would you trust an agent to fix prod at 3am? - GoDataFest
+- 27 October 2026: One arrow, multiple breaches: What I've learned jailbreaking chatbots - Techorama NL
+- 30 October 2026: I jailbroke a scam bot, and so can you - WICCON
 
 ## What the slides cover
 

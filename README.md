@@ -35,19 +35,39 @@ This repository will be updated with write-ups that expand on the experiments an
 
 Follow the [write-ups index](./docs/README.md) as these are added, or watch this repository for updates.
 
-## Relevant links
+## References and further reading
 
-### Testing and research
+The links below relate to the topics in the slides; the experiments and results presented by Yianna are her own unless otherwise credited.
 
-- [garak](https://github.com/NVIDIA/garak): an LLM vulnerability scanner.
-- [XSTest](https://github.com/paul-rottger/xstest): a test suite for identifying exaggerated safety behaviours and over-refusal.
-- [The Crescendo Multi-Turn LLM Jailbreak Attack](https://www.usenix.org/conference/usenixsecurity25/presentation/russinovich): the research behind gradual escalation across a conversation.
-- [Attention Is All You Need](https://arxiv.org/abs/1706.03762): the Transformer paper referenced in the attention section.
+### Research and explanations
 
-### Agent infrastructure
+- **Attention and Transformers:** Vaswani et al. (2017), [Attention Is All You Need](https://arxiv.org/abs/1706.03762).
+- **Visual explanation of attention:** [Luis Serrano / Serrano Academy](https://www.youtube.com/@SerranoAcademy), credited for the attention and embedding illustrations shown in the slides.
+- **Multi-turn escalation:** Russinovich, Salem, and Eldan, [Great, Now Write an Article About That: The Crescendo Multi-Turn LLM Jailbreak Attack](https://www.usenix.org/conference/usenixsecurity25/presentation/russinovich), USENIX Security 2025.
+- **Role confusion and CoT forgery:** Charles Ye, Jasmine Cui, and Dylan Hadfield-Menell (2026), [Prompt Injection as Role Confusion](https://arxiv.org/abs/2603.12277). See also the [authors' project page and extended write-up](https://role-confusion.github.io/) and the [LessWrong article linked in the slides](https://www.lesswrong.com/posts/d8xDGzCEYE639qqEv/a-theory-of-prompt-injection-and-why-you-should-study-roles).
+- **Invisible prompt injection:** [StegZero: Invisible Prompt Injection](https://stegzero.com/invisible-prompt-injection/), the Unicode-tag resource linked in the slides.
+- **Scam-bot prompt-leak example:** [Christel Lim's LinkedIn post](https://www.linkedin.com/feed/update/urn:li:activity:7454688373253885952/), credited in the “Spot the prompt leak” slides.
 
-- [Strands Agents](https://strandsagents.com/): the agent toolkit used in the AWS examples.
-- [Amazon Bedrock AgentCore](https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/what-is-bedrock-agentcore.html): documentation for the agent platform discussed in the slides.
+### Evaluation tools and benchmarks
+
+- **[garak](https://github.com/NVIDIA/garak):** an LLM vulnerability scanner, referenced in the single-turn testing examples.
+- **[MT-JailBench](https://github.com/SafetyArena/mt-jailbench):** a modular framework for evaluating multi-turn jailbreaks. [Paper: A Modular Benchmark for Understanding Multi-Turn Jailbreak Attacks](https://arxiv.org/abs/2605.11002).
+- **[XSTest](https://github.com/paul-rottger/xstest):** Röttger et al.'s test suite for identifying exaggerated safety behaviours, useful for checking over-refusal alongside harmful-input tests.
+- **[MultiBreak](https://proceedings.mlr.press/v306/song26n.html):** Song et al. (2026), *A Scalable and Diverse Multi-turn Jailbreak Benchmark for Evaluating LLM Safety*.
+
+### Agent infrastructure and threat modelling
+
+- **[Strands Agents](https://strandsagents.com/):** the agent toolkit discussed in the AWS experiments.
+- **[Amazon Bedrock AgentCore](https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/what-is-bedrock-agentcore.html):** documentation for the agent platform discussed in the slides.
+- **[The lethal trifecta for AI agents](https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/):** Simon Willison (2025), on the combination of private data, untrusted content, and external communication.
+- **[Threat Modeling: What, Why, and How?](https://shostack.org/resources/whitepapers/threat-modeling-what-why-how):** Adam Shostack's explanation of the four-question threat-modelling framework used in the code-review section.
+
+### Hands-on learning
+
+- **[Gray Swan Arena](https://www.grayswan.ai/solutions/for-model-builders/arena):** AI red-teaming challenges.
+- **[Berkeley's AgentX-AgentBeats Competition](https://rdi.berkeley.edu/agentx-agentbeats):** agent evaluation and benchmark development. [AgentBeats dashboard](https://agentbeats.dev/).
+- **[HackAPrompt](https://www.hackaprompt.com/):** prompt-injection and jailbreaking challenges.
+- **[OWASP FinBot CTF](https://genai.owasp.org/resource/finbot-agentic-ai-capture-the-flag-ctf-application/):** hands-on challenges for agentic AI security.
 
 ## Licence and attribution
 
